@@ -8,7 +8,7 @@
     "bundle:watch": "webpack --progress --watch",
     "start": "http-server -c-1",
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha -- --recursive --require ignore-styles --compilers jsx:babel-core/register",
-    "coveralls": "cat ./coverage/lcov.info | coveralls && rimraf coverage",
+    "coveralls": "cat ./coverage/lcov.info | coveralls && rimraf coverage"
   },
   "keywords": [
     "word",
